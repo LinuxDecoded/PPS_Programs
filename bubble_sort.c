@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 int sort(int *arr, int l) {
     int tmp, i, j;
@@ -28,5 +28,4 @@ int main() {
         scanf("%d", &arr[i]);
     }
     sort(arr,l);
-    getch();
 }
