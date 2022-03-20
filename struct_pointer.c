@@ -14,7 +14,7 @@ int main() {
     printf("Enter roll number: ");
     scanf("%d", &student.roll);
     printf("Student Data you entered is: \n");
-    printf("Student name: %s", student_copy->name);
+    printf("Student name: %s\n", student_copy->name);
     printf("Student roll number: %d", student_copy->roll);
     return 0;
 }
